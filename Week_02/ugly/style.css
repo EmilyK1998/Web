@@ -1,0 +1,8 @@
+body{
+   background-image: url("pink.jpg");
+    background-color: hotpink;
+    color: rgb(38, 4, 38);
+}
+h1{ font-size: xx-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h2{border: 6px solid rgb(173, 216, 230); padding: 20px; text-align: center;}
