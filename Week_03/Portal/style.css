@@ -1,6 +1,11 @@
-.gallery-pic{
-    max-width: 30%;
-    border-radius: 10px;
-    border-color: beige;
-    padding: 100px;
+body{
+    color: beige;
+    text-align: center;
+    border: 10px;
+    border-color: rgb(13, 5, 5);
+    background-color: rgb(41, 12, 12)
+}
+.gallery{
+ border-image: auto;
+ border-color: beige;
 }
