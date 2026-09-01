@@ -5,7 +5,17 @@ body{
     border-color: rgb(13, 5, 5);
     background-color: rgb(41, 12, 12)
 }
-.gallery{
- border-image: auto;
- border-color: beige;
+h1, h2, h3{
+    font-family:Arial, Helvetica, sans-serif;
+color:rgb(249, 222, 154)
+}
+.img-center{
+    width:30%
+    display: block;
+    margin: 20px auto;
+}
+.gallery-img{
+    width: 30%
+    borders: 10px;
+    ;
 }
