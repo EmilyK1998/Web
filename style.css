@@ -1,4 +1,6 @@
 body{
-    background-color: rgb(243, 127, 190);
-    
+    background-color: rgb(243, 127, 190);  
+}
+img{
+    size:40%;
 }
