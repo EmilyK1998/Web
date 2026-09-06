@@ -1,0 +1,34 @@
+body{
+
+    background-color:rgb(254, 230, 169);
+
+}
+h1{
+    text-align:center;
+    color:rgb(55, 16, 27);
+}
+table{
+    width:50%;
+    margin:10px auto;
+    border:2px solid beige;
+    border-collapse:collapse;
+    height:50%
+}
+
+th{
+    width:12.5%;
+    border:2px solid rgb(255, 129, 10);
+    background-color:orange;
+    padding:20px;
+    font-size:xx-large;
+    color:rgb(55, 16, 27);
+}
+td{
+    color:rgb(55, 16, 27);
+    border:2px solid rgb(255, 129, 10);
+    width:12.5%;
+    height:140px;
+text-align:left;
+vertical-align: top;
+font-size:x-large;
+}
