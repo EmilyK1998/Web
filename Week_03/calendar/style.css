@@ -8,11 +8,11 @@ h1{
     color:rgb(55, 16, 27);
 }
 table{
-    width:50%;
+    width:60%;
     margin:10px auto;
     border: 1px solid rgb(55, 16, 27);
     border-collapse:collapse;
-    height:50%
+    height:50%;
 }
 
 th{
@@ -28,7 +28,16 @@ td{
     border: 1px solid rgb(255, 129, 10);
     width:12.5%;
     height:140px;
-text-align:left;
-vertical-align: top;
-font-size:x-large;
+    text-align:left;
+    vertical-align: top;
+    font-size:x-large;
+}
+img{
+    max-width: 85px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+footer{
+    text-align: center;
 }
