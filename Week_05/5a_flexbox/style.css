@@ -1,0 +1,22 @@
+:root{
+    --primary-dark: rgb(56, 30, 30);
+    --accent: rgb(59, 122, 59);
+    --primary-light: rgb(228, 177, 228);
+}
+body{
+    background-color:var(--primary-dark);
+}
+.container {
+  display: flex;
+  background-color:var(--accent);
+}
+
+.flexbox-container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 40px;
+  font-size: 24px;
+  border-radius:8px;
+  display:inline-flex;
+  align-items:center;
+}
