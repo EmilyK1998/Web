@@ -1,7 +1,69 @@
-body{
-    background-color:ivory;
-    line-height: 2px;
+:root {
+    --brand-color: #1e6260;
+    --background-color: pink;
+} 
+* {
+    box-sizing: border-box;
 }
-h1{
+.column-card{
+    display: inline-block;
+    width: 48%;
+    border: 2px dashed var(--brand-color);
+    border-radius: 8px;
+    padding: 20px;
+    background-color:rgb(161, 206, 202);
+    margin: 1%;
+    font-size:larger;
+    text-align:center;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed var(--brand-color);
+    cursor: help;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color:var(--background-color);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+} /* This targets the .tooltiptext element ONLY when it is nested inside an element with the .tooltip class */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    color:black;
+}
+
+body{
+    background-color:antiquewhite;
+}
+span{font-weight:bold;} 
+aside{ 
+    float: right;
+    width: 25%;
+    border: 2px solid teal;
+    margin:: 0 0 20px 20px;
+    padding: 15px;
+    background-color:pink;
+    border-radius: 8px;
+}
+header{
+    border: 2px solid var(--brand-color);
+    width:25%;
+    padding: 15px;
+    background-color:var(--background-color);
+    text-align: center;
+    border-radius: 8px;
+}
+p{
     text-align:center;
 }
