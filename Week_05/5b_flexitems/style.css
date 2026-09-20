@@ -23,7 +23,7 @@
     align-items: center;
 }
 .hero-image img{
-    width: 130%;
+    width: 50%;
     margin: 10px auto;
     padding: 20px;
     background:var(--accent); 
