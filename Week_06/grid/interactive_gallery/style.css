@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+:root{
+    --background: green;
+    --accent: rgb(226, 127, 15);
+    --dark-color:rgb(9, 49, 23);
+    --light: rgb(229, 201, 150);
+}
+body{
+    background:var(--background);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap:20px;
+max-width:1200px;
+margin: 10px auto;
+}
+.card{
+    background:var(--background);
+    padding:15px;
+    border: 1px solid var(--accent)
+}
+.left-side{
+    grid-column:span 1;
+    background:var(--background);
+    min-height:300px;
+}
+.content{
+    grid-column: span 3;
+    min-height: 500px;
+    background: var(--accent);
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap:20px;
+}
+.image-card{
+    grid-column: span 1;
+    background:var(--accent);
+    min-height: 200px;
+}
+
+.hero{
+    grid-column:span 4;
+    color: var(--dark-color);
+    text-align:center;
+    min-height:300px;
+}
+.footer{
+    grid-column: 4;
+}
