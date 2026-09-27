@@ -48,3 +48,28 @@ h1, h2, h3{
 p{
     color:var(--font--);
 }
+.hero{
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+}
+.hero-text{
+   flex-basis:50%;
+    flex-grow: 1;
+    padding: 20px;
+    border: none;
+    align-items:center;
+    font-size: x-large;
+}
+.hero-image{
+     width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    background:var(--accent); 
+    border-radius: 20px;
+}
+.footer{
+    text-align: center;
+    font-size: medium;
+}
+    
