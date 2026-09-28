@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+.gallery-container{
+    display: grid;
+    columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.main-display{
+    grid-column: 1/-1;
+    height:400px;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+}
+.thumb{
+    cursor:pointer;
+
+}
