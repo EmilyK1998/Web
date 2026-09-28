@@ -24,9 +24,8 @@ body{
 }
 .gallery-container{
     display: grid;
-    columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    display:flex;
     justify-content:center;
     flex-wrap:wrap;
     width:90%;
@@ -54,8 +53,7 @@ body{
 }
 .thumb img{
     display:block;
-    width:140px;
-    height:100px;
+    width:100%;
     object-fit:cover;
 }
 .footer, p{
