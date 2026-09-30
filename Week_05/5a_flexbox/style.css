@@ -1,7 +1,8 @@
 :root{
-    --primary-dark: rgb(33, 21, 21);
-    --accent: rgb(20, 71, 26);
-    --primary-light: rgb(223, 210, 195);
+    --primary-dark: rgb(60, 50, 50);
+    --accent: rgb(117, 178, 125);
+    --primary-light: rgb(228, 255, 191);
+    --mid-tone: rgb(23, 48, 23);
 }
 body{
     background-color:var(--primary-dark);
@@ -13,30 +14,44 @@ body{
     flex-wrap:wrap;
     justify-content:space-around;
     gap:10px;
+    align-items: flex-start;
+    padding:10px;
+    width:75%;
+    margin:0px auto;
 }
 
-.gallery-row, div {
+.gallery-row {
   background-color:var(--accent);
   padding: 10px;
   font-size: 24px;
   border-radius:4px;
   margin:20px;
+  display:flex;
+  align-items:flex-start;
+  gap:20px;
+  justify-content:center;
+  width:75%;
 }
 h3{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:var(--primary-light);
+    color:var(--mid-tone);
+    margin-top:10px;
 }
 h1{
     color: var(--primary-light);
     text-align: center;
 }
 .card{
-    width: 30%;
+    width: 220px;
     height: auto;
-    object-fit:cover;
-    display: block;
     justify-content:space-between;
+}
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    display:block;
 }
 footer{
     bottom:0;
