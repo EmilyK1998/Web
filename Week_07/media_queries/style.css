@@ -27,36 +27,31 @@ body{
     border-bottom:3px solid var(--light);
 
 }
-.main-content{
-    display:grid;
-    grid-template-columns: 1;
-    gap:20px;
-    padding:10px;
-}
 .card{
     background:var(--accent);
     border-radius: 8px;
     overflow:hidden;
-    box-shadow: 0 2px 6px var(--midtone);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    min-height:400px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
-.card-header{
-    background:var(--midtone);
-    color: var(--dark);
-    text-align:center;
-    min-height:400px;
+.avatar{
+    width:100px;
+    height: auto;
 }
-.card .card-body{
-    background:var(--light);
-    color: var(--dark);
-    text-align:center;
-    min-height:100px;
-}
-@media(min-width:768px){
+
+@media(min-width:700px){
     .banner{
         grid-template-columns: 1fr 1fr;
     }
+    .card {
+            background: var(--accent);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+     }
 
 }
 @media(min-width 1024){
