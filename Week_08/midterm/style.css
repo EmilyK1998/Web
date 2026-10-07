@@ -27,13 +27,13 @@ body{
     margin-top:30px;
     color:var(--border);
     border-radius:20px;
+
 }
 
 .hero-text .hero-image {
     flex-basis: 50%;
     flex-grow: 1;
     padding: 20px;
-    border: 2px;
     align-items: center;
     display:block;
     margin:0 auto;
@@ -136,7 +136,7 @@ img{
 .content{
     display:flex;
     align-items: flex-start;
-    gap: 30px;
+    gap: 15px;
     max-width: 1100px;
     margin: 40px auto;
 }
@@ -149,29 +149,32 @@ img{
 
 }
 .sidebar{
-    width:500px;
+    width:280px;
+    flex-shrink: 0;
 }
 ol {
-    list-style-type: upper-roman;
-    font-weight: bold;
+    list-style-type:disc;
     list-style-position: inside;
     border: 2px solid var(--light);
-    width: 50%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
-    background-color:var(--border);
+    margin-top: 20px;
+    padding:20px;
+    background: var(--border);
+    text-align:left;
 }
 
-ul {
-    font-weight: lighter;
+li ul {
     text-align: left;
-    list-style-type: circle;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type:disc;
 }
 .photo-wall{
     display: grid;
     grid-template-columns: auto auto;
     gap: 15px;
+    flex:1;
+    padding:10px;
+    border: 2px solid var(--light);
+    background:var(--border);
 
 }
 .photo-wall div {
@@ -187,8 +190,18 @@ ul {
     max-width: 1200px;
     background: var(--light--);
     min-height: 500px;
-    color: var(--font--);
     margin: 20px auto;
     border: 8px solid var(--border--);
     border-radius: 8px;
+}
+footer{
+    margin-bottom:50px;
+    display: inline-block;
+    padding: 12px;
+    background: var(--border);
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+footer:hover{
+    background:var(--light);
 }
