@@ -75,6 +75,7 @@ nav a{
 }
 nav a:hover{
     background:var(--light);
+    color:var(--border);
 }
 .main{
     margin-top:30px;
@@ -114,7 +115,7 @@ nav a:hover{
     height:200px;
     object-fit:cover;
     display:block;
-    border:20px solid var(--light);
+    border:8px solid var(--light);
 }
 img{
     display:block;
@@ -124,7 +125,7 @@ img{
     text-align: center;
 }
 .thumb {
-    cursor: pointer;
+    cursor:pointer;
     padding: 20px;
     background: var(--midtone);
 }
@@ -151,6 +152,9 @@ img{
 .sidebar{
     width:280px;
     flex-shrink: 0;
+}
+.sidebar h3{
+    margin-top:10px;
 }
 ol {
     list-style-type:disc;
@@ -201,6 +205,10 @@ footer{
     background: var(--border);
     border-radius: 8px;
     transition: 0.3s ease;
+}
+footer:hover a{
+    color: var(--border);
+    
 }
 footer:hover{
     background:var(--light);
