@@ -167,7 +167,6 @@ img{
 ol {
     list-style-type:disc;
     list-style-position: inside;
-    border: 2px solid var(--light);
     padding: 20px;
     margin-top: 20px;
     padding:20px;
@@ -185,7 +184,6 @@ li ul {
     gap: 15px;
     flex:1;
     padding:10px;
-    border: 2px solid var(--light);
     background:var(--border);
 
 }
