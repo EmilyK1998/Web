@@ -64,6 +64,7 @@ nav{
     gap:15px;
     margin:30px auto;
     flex-wrap:wrap;
+    text-decoration: none;
 }
 nav a{
     display:inline-block;
@@ -72,6 +73,7 @@ nav a{
     color:var(--border);
     border-radius:8px;
     transition:0.3s ease;
+    text-decoration: none;
 }
 nav a:hover{
     background:var(--light);
@@ -163,6 +165,7 @@ img{
 }
 .sidebar h3{
     margin-top:10px;
+
 }
 ol {
     list-style-type:disc;
@@ -172,6 +175,7 @@ ol {
     padding:20px;
     background: var(--border);
     text-align:left;
+    line-height: 1.5;
 }
 
 li ul {
@@ -255,6 +259,10 @@ footer{
     background: var(--border);
     border-radius: 8px;
     transition: 0.3s ease;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
 }
 footer:hover a{
     color: var(--border);
@@ -290,7 +298,6 @@ p{
             padding:8px;
         }
     
-
 }
 
 @media(min-width:900px) {
