@@ -27,6 +27,7 @@ body{
     margin-top:30px;
     color:var(--border);
     border-radius:20px;
+    flex-direction:column;
 
 }
 
@@ -277,7 +278,7 @@ h2{
 p{
     margin-bottom: 5px;
 }
-@media(min-width:700px) {
+@media(min-width:600px) {
     .photo-wall {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -285,18 +286,10 @@ p{
     }
         .card {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             text-align: center;
         }
-        .hero{
-            gap:8px;
-            width:auto;
-            padding:16px;
-            border-radius:12px;
-        }
-        .hero-text, .hero-image{
-            padding:8px;
-        }
+        
     
 }
 
@@ -306,7 +299,9 @@ p{
         grid-template-columns: repeat(2, 1fr);
 
     }
-
+    .hero{
+        flex-direction:row;
+    }
 }
 
 @media(min-width:1200px) {
@@ -315,6 +310,9 @@ p{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
+    }
+    .hero{
+        flex-direction:row;
     }
 
 }
