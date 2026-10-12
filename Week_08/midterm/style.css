@@ -280,6 +280,19 @@ p{
             flex-direction: row;
             text-align: center;
         }
+        .hero{
+            gap:8px;
+            width:auto;
+            padding:16px;
+            border-radius:12px;
+        }
+        .hero-text, .hero-image{
+            padding:8px;
+        }
+        .hero-text h1{
+            font-size:1.8rem;
+        }
+        .hero-image img{}
 
 }
 
