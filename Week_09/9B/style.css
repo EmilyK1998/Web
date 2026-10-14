@@ -1,0 +1,28 @@
+root:{
+    --background:#DBD0D2 ; 
+    --midtone:#855A91 ;
+    --highlight:#DF91CC ;
+    --dark:#313443 ;
+    --light:#8DB2D2 ;
+}
+body{
+    background: ;
+}
+main{
+    min-height: 600px;
+    background-color: ;
+    margin:20px auto;
+    min-width: 500px;
+    color: ;
+}
+header,footer{
+    background: ;
+    min-height: 100px;
+    h1,h3{
+        color: ;
+        text-align:center;
+        margin-top: 20px;
+        padding:20px;
+    }
+}
+
