@@ -3,19 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Bootstrap Components</title>
+    <title>9B Bootstrap Components</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="container-fluid">
-      <h1>Picture</h1>
-    </header>
-    <main class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card-body">basic card</div>
+    <nav class="navbar navbar-expand-sm bg-info">
+      <div class="container-fluid">
+        <h3>Mythical Adoption Center</h3>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.connollycove.com/the-unicorn-myth-meaning-symbol/"
+              >Unicorns</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.dndbeyond.com/monsters/16975-owlbear"
+              >Owlbears</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mythicalencyclopedia.com/wyvern/"
+              >Wyverns</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row g-5">
+        <div class="card col-12 col-md-6 col-lg-4">
+          <div class="card-image-top mt-4 p-3">
+            <img
+              src="images/unicorn.jpg"
+              class="img-fluid border rounded shadow-sm"
+              alt=""
+            />
+            <div class="card-title">
+              <div class="text-center">
+                <h2>Unicorn</h2>
+              </div>
+            </div>
+            <div class="card-text">
+              <p>
+                The Majestic Unicorn, the unicorn is a soft creature, often fond
+                of young maidens. Can be known to have magical properties, but
+                only for those they trust!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <div class="card-image-top mt-4 p-3">
+            <img
+              src="images/owlbear.jpg"
+              class="img-fluid border rounded shadow-sm"
+              alt=""
+            />
+            <div class="card-title">
+              <div class="text-center">
+                <h2>Owlbear</h2>
+              </div>
+            </div>
+            <div class="card-text">
+              <p>
+                A ferocious beast, half owl half grizzly bear. Difficult to earn
+                their trust, but once given you have a companion for a lifetime.
+                Excellent guard animal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <div class="card-image-top mt-4 p-3">
+            <img
+              src="images/wyvern.jpg"
+              class="img-fluid border rounded shadow-sm"
+              alt=""
+            />
+            <div class="card-title">
+              <div class="text-center">
+                <h2>Wyvern</h2>
+              </div>
+            </div>
+            <div class="card-text">
+              The Wyvern might be the most difficult of all! They retain
+              individuality at all times. Can be standoff-ish, will bite. This
+              is a lego-rendition as the photographer was recently burned.
+            </div>
+          </div>
         </div>
       </div>
-    </main>
+    </div>
+    <footer>
+      <div class="text-center">
+        <p><a href="../../index.html">Student Portal</a></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
