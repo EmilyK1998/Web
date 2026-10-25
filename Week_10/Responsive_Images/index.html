@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Images</title>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Spot Animals on the Safari</h1>
+      </div>
+      <div class="hero-image">
+        <img
+          src="images/binoculars.jpg"
+          alt="My brother in a gray t-shirt, black large frame glasses, and purple bunny ears"
+        />
+      </div>
+    </header>
+    <main>
+      <h2>Who Will We Find?</h2>
+    </main>
+    <div class="page">
+      <picture class="photo">
+        <source media="(min-width: 768px)" srcset="images/tripzebra.jpg" />
+        <source media="(max-width: 767px)" srcset="images/zebra.jpg" />
+        <img src="images/zebra.jpg" alt="a close up photo of a zebra" />
+      </picture>
+      <picture class="photo">
+        <source media="(min-width: 768px)" srcset="images/liontree.jpg" />
+        <source media="(max-width: 767px)" srcset="images/lion.jpg" />
+        <img src="images/lion.jpg" alt="a close up photo of a lion" />
+      </picture>
+      <picture class="photo">
+        <source
+          media="(min-width: 768px)"
+          srcset="images/lushgreengiraffe.jpg"
+        />
+        <source media="(max-width: 767px)" srcset="images/giraffe.jpg" />
+        <img src="images/giraffe.jpg" alt="a close up photo of a giraffe" />
+      </picture>
+      <picture class="photo">
+        <source media="(min-width: 768px)" srcset="images/rhinodetected.jpg" />
+        <source media="(max-width: 767px)" srcset="images/rhino.jpg" />
+        <img
+          src="images/rhino.jpg"
+          alt="a close up of a side profile of a rhino"
+        />
+      </picture>
+      <picture class="photo">
+        <source
+          media="(min-width: 768px)"
+          srcset="images/elephanthangout.jpg"
+        />
+        <source media="(max-width: 767px)" srcset="images/elephant.jpg" />
+        <img src="images/elephant.jpg" alt="a close up of an elephant" />
+      </picture>
+      <picture class="photo">
+        <source media="(min-width: 768px)" srcset="images/dirtmound.jpg" />
+        <source media="(max-width: 767px)" srcset="images/meerkat.webp" />
+        <img
+          src="images/meerkat.webp"
+          alt="a close up of a small but mighty meerkat"
+        />
+      </picture>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Student portal</a></p>
+    </footer>
+  </body>
+</html>
