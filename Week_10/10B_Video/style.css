@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --background:#f9d49c ;
+    --accent:#8F5601 ;
+    --light: #bedaef;
+    --dark:#14293A ;
+}
+.hero {
+    position:reletive;
+    overflow:hidden;
+    display:grid;
+    place-items:center;
+}
+.hero-video{
+    position:absolute;
+    inset:0;
+    width: 100%;
+    object-fit:cover;
+}
+.hero-video video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.hero-text{
+    position:relative;
+    color:var(--light);
+    text-align:center;
+}
