@@ -10,7 +10,7 @@
     --dark:#14293A ;
 }
 .hero {
-    position:reletive;
+    position:relative;
     overflow:hidden;
     display:grid;
     place-items:center;
