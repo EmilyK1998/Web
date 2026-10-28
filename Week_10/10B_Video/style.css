@@ -4,11 +4,11 @@
     margin: 0;
 }
 :root{
-    --background:#f9d49c ;
+    --background:#8aa0a4 ;
     --accent:#8F5601 ;
-    --light: #ffffff;
-    --dark:#13232b ;
-    --highlight: #ADDBFF;
+    --light: #b4c4e0;
+    --dark:#302d43 ;
+    --highlight: #b3b3b3;
 }
 body{
     background:var(--background);
@@ -35,6 +35,7 @@ body{
     z-index:1;
     text-shadow: 0 2px 8px;
     margin-top:150px;
+    margin-bottom:40px;
     h1{
        font-size: 80px;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -59,6 +60,25 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-    color: var(--highlight);
+    color: var(--light);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ratio-16x9{
+    width: min(1100px, 100%);
+    aspect-ratio: 16/9;
+    margin: 30px auto;
+    border: 4px solid var(--dark);
+    border-radius:100px;
+
+}
+.ratio-16x9 iframe{
+    width:100%;
+    height:100%;
+    border:0;
+    border-radius:100px;
+}
+footer{
+    text-align:center;
+    font-size:20px;
+    margin-bottom:20px;
 }
