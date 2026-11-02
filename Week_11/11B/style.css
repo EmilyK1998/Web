@@ -3,3 +3,74 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --background:#ccf0f4;
+    --border:#efaed6;
+    --fonts:rgb(98, 44, 78);
+    --darkmode:#0f1b1d;
+
+}
+body {
+    background:var(--background);
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    color:var(--fonts);
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+img {
+    width: 40%;
+    margin: 15px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container>div {
+background: #efaed6;
+}
+
+.grid-container>div>img {
+    width: 180px;
+    height:180px;
+    object-fit:cover;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+
+}
+
+#large {
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    background: #efaed6;
+}
+.buttons{
+    padding:10px 16px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+.buttons:hover{
+    opacity:0.8;
+}
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
