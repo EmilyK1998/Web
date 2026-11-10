@@ -52,6 +52,8 @@ body{
     padding: 10px;
     border-radius: 8px;
     display: block;
+    width:100%;
+    height:auto;
 
 }
 .main {
