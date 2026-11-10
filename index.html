@@ -3,99 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Emily's Homework</title>
   </head>
   <body>
-    <h1>My ADD 103 Course Portal</h1>
-    <h2>
-      Hi! My name is Emily, this is my second year with MCC and my first ever
-      Web Development class!
-    </h2>
-    <h3></h3>
-    <details>
-      <summary>Week 1</summary>
-      <p><a href="Week_01/index.html">Week 1 Intro</a></p>
-    </details>
-    <details>
-      <summary>Week 2</summary>
-      <p><a href="Week_02/index.html">Review: Emily in Paris</a></p>
-      <p><a href="Week_02/ugly/index.html">Ugly is Beautiful</a></p>
-    </details>
-    <details>
-      <summary>Week 3</summary>
-      <ul>
-        <p><a href="Week_03/portal/index.html">Portal</a></p>
-        <p>
-          <a href="Week_03/calendar/index.html"
-            >Week 3B: Birth-month Calendar</a
-          >
-        </p>
-      </ul>
-    </details>
-    <details>
-      <summary>Week 4</summary>
-      <ul>
-        <p><a href="Week_04/outline/index.html">Nested Outline Project</a></p>
-      </ul>
-      <ul>
-        <p><a href="Week_04/local_project/index.html">Semantic Layout</a></p>
-      </ul>
-    </details>
-    <details>
-      <summary>Week 5</summary>
-      <ul>
-        <p>
-          <a href="Week_05/5b_flexitems/index.html">Flex Items & Flexing</a>
-        </p>
-        <p><a href="Week_05/5a_flexbox/Index.html">Gallery</a></p>
-      </ul>
-    </details>
-    <details>
-      <summary>Week 6</summary>
-      <ul>
-        <p><a href="Week_06/grid/index.html">Grid Container</a></p>
-        <p>
-          <a href="Week_06/interactive_gallery/index.html"
-            >Interactive Gallery</a
-          >
-        </p>
-      </ul>
-    </details>
-    <details>
-      <summary>Week 7</summary>
-      <ul>
-        <p><a href="Week_07/media_queries/index.html">Profile Card</a></p>
-        <p>
-          <a href="Week_07/responsive_layout/index.html">Responsive Layout</a>
-        </p>
-      </ul>
-    </details>
-    <details>
-      <summary>Week 8</summary>
-      <ul>
-        <p><a href="Week_08/midterm/index.html">Midterm</a></p>
-      </ul>
-    </details>
-    <details>
-      <summary>Week 9</summary>
-      <ol>
-        <li><a href="Week_09/Bootstrap_9A/">Grids</a></li>
-        <li><a href="Week_09/9B/index.html">Components and Utilities</a></li>
-      </ol>
-    </details>
-    <details>
-      <summary>Week 10</summary>
-      <ol>
-        <li><a href="Week_10/Responsive_Images/">Responsive Images</a></li>
-        <li><a href="Week_10/10B_Video/index.html">Video Embeds</a></li>
-      </ol>
-    </details>
-      <summary>Week 11</summary>
-      <ol>
-        <li><a href="Week_11/11A/index.html">Animation CSS</a></li>
-        <li><a href="Week_11/11B/index.html">Java Script and DOM</a></li>
-      </ol>
-    </details>
+    <header class="hero">
+      <img
+        src="images/flowers.png"
+        alt="dark teal background with pink flowers"
+      />
+      <div class="hero-text">
+        <div class="butterfly-kids-regular">
+          <h1>Welcome to my Homework Page</h1>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <h2>This is my second year with McHenry County College!</h2>
+    </main>
+    <section class="week-grid">
+      <details class="week-card">
+        <summary>Week 1</summary>
+        <ol>
+          <li>
+            <a href="Week_01/index.html">Intro</a>
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 2</summary>
+        <ol>
+          <li>
+            <a href="Week_02/index.html">Review: Emily in Paris</a>
+          </li>
+          <li>
+            <a href="Week_02/ugly/index.html">Ugly is Beautiful</a>
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 3</summary>
+        <ol>
+          <li>
+            <a href="Week_03/portal/index.html">Portal</a>
+          </li>
+          <li>
+            <a href="Week_03/calendar/index.html"
+              >Week 3B: Birth-month Calendar</a
+            >
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 4</summary>
+        <ol>
+          <li>
+            <a href="Week_04/outline/index.html">Nested Outline Project</a>
+          </li>
+          <li>
+            <a href="Week_04/local_project/index.html">Semantic Layout</a>
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 5</summary>
+        <ol>
+          <li>
+            <a href="Week_05/5b_flexitems/index.html">Flex Items & Flexing</a>
+          </li>
+          <li>
+            <a href="Week_05/5a_flexbox/Index.html">Gallery</a>
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 6</summary>
+        <ol>
+          <li><a href="Week_06/grid/index.html">Grid Container</a></li>
+          <li>
+            <a href="Week_06/interactive_gallery/index.html"
+              >Interactive Gallery</a
+            >
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 7</summary>
+        <ol>
+          <li><a href="Week_07/media_queries/index.html">Profile Card</a></li>
+          <li>
+            <a href="Week_07/responsive_layout/index.html">Responsive Layout</a>
+          </li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 8</summary>
+        <ol>
+          <li><a href="Week_08/midterm/index.html">Midterm</a></li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 9</summary>
+        <ol>
+          <li><a href="Week_09/Bootstrap_9A/">Grids</a></li>
+          <li><a href="Week_09/9B/index.html">Components and Utilities</a></li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 10</summary>
+        <ol>
+          <li><a href="Week_10/Responsive_Images/">Responsive Images</a></li>
+          <li><a href="Week_10/10B_Video/index.html">Video Embeds</a></li>
+        </ol>
+      </details>
+      <details class="week-card">
+        <summary>Week 11</summary>
+        <ol>
+          <li><a href="Week_11/11A/index.html">Animation CSS</a></li>
+          <li><a href="Week_11/11B/index.html">Java Script and DOM</a></li>
+        </ol>
+      </details>
+    </section>
   </body>
 </html>
