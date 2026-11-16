@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --background:#FEDEF5;
+    --darkbackground:#31133c ;
+    --lightborder:#FF94DB ;
+    --lightaccent:#ABCEDB ;
+    --darkaccent:#77A418 ;
+    --darkborder:#B04EBF ;
+    --light:#e1cedc ;
+    --dark:#280916 ;
+}
