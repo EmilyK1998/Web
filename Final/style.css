@@ -8,10 +8,14 @@
     --darkbackground:#31133c ;
     --lightborder:#FF94DB ;
     --lightaccent:#ABCEDB ;
+    --lighthover: #1f5d74;
     --darkaccent:#77A418 ;
     --darkborder:#B04EBF ;
     --light:#e1cedc ;
     --dark:#280916 ;
+}
+body{
+    background:var(--background);
 }
 .hero {
     display: flex;
@@ -22,7 +26,7 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
-    background: var(--light);
+    background:var(--lightborder);
     margin-top: 30px;
     color: var(--border);
     border-radius: 20px;
@@ -43,7 +47,7 @@
     max-width: 100%;
     margin: 10px auto;
     padding: 10px;
-    background: var(--border);
+    background: var(--lightaccent);
     border-radius: 8px;
     display: block;
 }
@@ -58,13 +62,13 @@ nav {
 nav a {
     display: inline-block;
     padding: 12px;
-    background: var(--midtone);
-    color: var(--border);
+    background: var(--lightaccent);
+    color: var(--dark);
     border-radius: 8px;
     transition: 0.3s ease;
     text-decoration: none;
 }
 nav a:hover {
-    background: var(--light);
-    color: var(--border);
+    background: var(--lighthover);
+    color: var(--light);
 }
