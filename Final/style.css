@@ -124,24 +124,24 @@ li ul {
     text-align: left;
     list-style-type: disc;
 }
-.slideshow{
-    max-width: 1050px;
+.photo-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
     flex:1;
+    max-width:1050px;
     margin: 2rem auto;
 }
-.slide{
-    display: none;
-    width:100%;
-    aspect-ratio:16/9;
-    object-fit:cover;
+.photo-grid figure{
+    text-align:center;
 }
-.slide.is-active{
+.photo-grid img{
     display:block;
+    width:100%;
+    aspect-ratio:4/3;
+    object-fit:cover;
+    border-radius:8px;
 }
-.slideshow-controls{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap: 1rem;
-    margin-top:0.75rem;
+.photo-grid figcaption{
+    margin-top: 0.5rem;
 }

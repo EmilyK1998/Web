@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-
     <title>Photography</title>
   </head>
+  
   <body>
     <nav>
     <p><a href="photography.html">Photography</a></p>
@@ -36,19 +37,44 @@
     </main>
     <div class="content-wrap">
       <aside class="sidebar">
-     <h3>Other Series:
-      <p><a href="music.html">The Bond of Music</a></p>
-      <p><a href="dorothy.html">There's no Place Like Home</a></p>
-     </h3>
+         <h3>Other Series</h3>
+    <div class="dropdown">
+      <button
+      class="btn btn-secondary dropdown-toggle"
+      type="button"
+      data-bs-toggle="dropdown"
+       aria-expanded="false">
+       More Collections
+    </button>
+        <ul class="dropdown-menu">
+      <p><a class="dropdown-item" href="music.html">The Bond of Music</a></p>
+      <p><a class="dropdown-item"href="dorothy.html">There's no Place Like Home</a></p>
+        </ul>
+    </div>
+    </div>
       </aside>
-      <section class="slideshow"aria-label="digital media gallery">
-        <img class="slide is-active" src="images/horse.jpeg" alt="">
-        <img class="slide" src="images/bluetruck.jpeg" alt="">
-        <img class="slide" src="images/dogrunning.jpeg" alt="">
-        <div class="slideshow-controls">
-          <button type="button" id="previous">Previous</button>
-          <span id="slide-status" aria-live="polite">1/3</span>
-          <button type="button" id="next">Next</button>
-        </div>
+      <section class="photo-grid" aria-label="photography collection">
+        <figure>
+          <img src="images/horse.jpeg" alt="a horse with a rider partially in view">
+          <figcaption>Horse in on the Back-roads</figcaption>
+        </figure>
+          <figure>
+          <img src="images/house.jpg" alt="A rundown white house with a lot of plants growing wildly">
+          <figcaption>Feels like Home</figcaption>
+        </figure>
+           <figure>
+          <img src="images/bluetruck.jpeg" alt="A vintage blue Chevy Truck">
+          <figcaption>Dad's Truck</figcaption>
+        </figure>
+        <figure>
+          <img src="images/dogrunning.jpeg" alt="A red haired dog running so fast the camera fails to catch him">
+          <figcaption>So Happy</figcaption>
+        </figure>
+        <figure>
+          <img src="images/motion.jpg" alt="A man in a black shirt has a car zoom past him">
+          <figcaption>Watch it Go</figcaption>
+        </figure>
       </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
